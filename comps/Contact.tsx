@@ -8,7 +8,7 @@ export default function Contact() {
 
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const mailto = `mailto:hello@example.com?subject=Portfolio%20Contact%20from%20${encodeURIComponent(
+    const mailto = `mailto:nkalathando01@gmail.com?subject=Portfolio%20Contact%20from%20${encodeURIComponent(
       form.name || ""
     )}&body=${encodeURIComponent(form.message + "\n\nFrom: " + form.email)}`;
     window.location.href = mailto;
