@@ -9,7 +9,10 @@ export default function Nav(){
     <nav className="container mx-auto p-4 md:p-6 z-40">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
-          <img src="/logo.png" alt="Logo" className="h-8 w-auto md:h-10" />
+          <Image
+          src="https://res.cloudinary.com/dp5gnnji3/image/upload/v1762432787/Logo_zrfyd5.png" 
+          alt="Logo" 
+          className="h-8 w-auto md:h-10" />
         </div>
 
         <button
