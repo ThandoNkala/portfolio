@@ -20,15 +20,15 @@ export default function Banner() {
           </div>
 
           <div className="w-full md:w-1/2">
-            <div className="bg-blue-500/20 rounded-3xl p-6 sm:p-8 md:p-10 backdrop-blur-sm">
+            <div className="bg-blue-400/15 rounded-3xl p-6 sm:p-8 md:p-0 backdrop-blur-sm">
               <div className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md">
-                <Image
-                  src="/me.png"
+                <img
+                  src="https://res.cloudinary.com/dp5gnnji3/image/upload/v1761903374/IMG-20251002-WA0042-removebg-preview_pvzgkk.png"
                   alt="My image"
                   width={490}
                   height={480}
-                  className="h-auto w-full object-contain"
-                  priority
+                  className=""
+                  
                 />
               </div>
             </div>

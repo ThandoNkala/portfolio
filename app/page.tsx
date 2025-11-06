@@ -3,7 +3,7 @@ import Banner from "@/comps/Banner";
 import Footer from "@/comps/Footer";
 import About from "@/comps/About";
 import Projects from "@/comps/Projects";
-import Experience from "@/comps/Experience";
+// import Experience from "@/comps/Experience";
 import Contact from "@/comps/Contact";
 
 
@@ -15,7 +15,7 @@ export default function App() {
       <Banner />
       <About />
       <Projects />
-      <Experience />
+      {/* <Experience /> */}
       <Contact />
       <Footer />
       </>
