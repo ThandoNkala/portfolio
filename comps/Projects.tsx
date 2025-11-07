@@ -23,18 +23,18 @@ const ALL_PROJECTS: Project[] = [
     image: "https://res.cloudinary.com/dp5gnnji3/image/upload/v1762417704/cover_hmluy4.png",
     tech: ["Next.js", "Tailwind", "TypeScript"],
     tags: ["web", "frontend"],
-    demo: "#",
-    github: "#",
+    demo: "https://thandonkala.vercel.app/",
+
   },
   {
     id: "p2",
-    title: "E‑commerce ",
-    description: "RESTful API for products, orders, and payments.",
-    image: "https://res.cloudinary.com/dp5gnnji3/image/upload/v1762418042/ecom_xeoxs3.png",
-    tech: ["Node.js", "Typescript", "MongoDB"],
+    title: "News Blog ",
+    description: "A website for a news blogging platform.",
+    image: "https://res.cloudinary.com/dp5gnnji3/image/upload/v1762509052/tech_zpmmor.png",
+    tech: ["Node.js", "Typescript", "Tailwind", "MongoDB"],
     tags: ["backend", "api"],
-    demo: "#",
-    github: "#",
+    demo: "https://tech-news-blog-eight.vercel.app/",
+  
   },
   {
     id: "p3",
@@ -43,8 +43,8 @@ const ALL_PROJECTS: Project[] = [
     image: "https://res.cloudinary.com/dp5gnnji3/image/upload/v1762418363/lulu_yvz3kg.png",
     tech: ["React", "Tailwind", ],
     tags: ["frontend", "ui"], 
-    demo: "#",
-    github: "#",
+    demo: "https://lulu-educational-academy.vercel.app/",
+  
   },
 ];
 
@@ -94,11 +94,6 @@ export default function Projects() {
                 {p.demo ? (
                   <a href={p.demo} className="px-4 py-2 rounded-md bg-blue-500 text-white text-sm hover:bg-blue-600 transition-colors">
                     Live Demo
-                  </a>
-                ) : null}
-                {p.github ? (
-                  <a href={p.github} className="px-4 py-2 rounded-md border border-white/20 text-white text-sm hover:bg-white/10 transition-colors">
-                    GitHub
                   </a>
                 ) : null}
               </div>

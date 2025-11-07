@@ -5,11 +5,11 @@ import Section from "./Section";
 
 export default function About() {
   const skills: { name: string; level: number }[] = [
-    { name: "JavaScript/TypeScript", level: 90 },
+    { name: "JavaScript/TypeScript", level: 89 },
     { name: "React / Next.js", level: 88 },
     { name: "Node.js / APIs", level: 80 },
     { name: "Tailwind CSS", level: 85 },
-    { name: "SQL / NoSQL", level: 70 },
+
   ];
 
   return (
