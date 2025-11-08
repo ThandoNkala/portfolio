@@ -22,7 +22,7 @@ const ALL_PROJECTS: Project[] = [
     description: "Personal portfolio built with Next.js and Tailwind CSS.",
     image: "https://res.cloudinary.com/dp5gnnji3/image/upload/v1762417704/cover_hmluy4.png",
     tech: ["Next.js", "Tailwind", "TypeScript"],
-    tags: ["web", "frontend"],
+    tags: [],
     demo: "https://thandonkala.vercel.app/",
 
   },
@@ -32,7 +32,7 @@ const ALL_PROJECTS: Project[] = [
     description: "A website for a news blogging platform.",
     image: "https://res.cloudinary.com/dp5gnnji3/image/upload/v1762509052/tech_zpmmor.png",
     tech: ["Node.js", "Typescript", "Tailwind", "MongoDB"],
-    tags: ["backend", "api"],
+    tags: [ ],
     demo: "https://tech-news-blog-eight.vercel.app/",
   
   },
@@ -42,7 +42,7 @@ const ALL_PROJECTS: Project[] = [
     description: "A responsive website for a local school.",
     image: "https://res.cloudinary.com/dp5gnnji3/image/upload/v1762418363/lulu_yvz3kg.png",
     tech: ["React", "Tailwind", ],
-    tags: ["frontend", "ui"], 
+    tags: [ ] ,
     demo: "https://lulu-educational-academy.vercel.app/",
   
   },
