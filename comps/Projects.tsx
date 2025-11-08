@@ -48,7 +48,7 @@ const ALL_PROJECTS: Project[] = [
   },
 ];
 
-const TAGS = ["all", "frontend", "backend", "web", "api", "ui"];
+const TAGS = ["all", ];
 
 export default function Projects() {
   const [active, setActive] = useState<string>("all");
