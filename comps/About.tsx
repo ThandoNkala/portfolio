@@ -30,7 +30,7 @@ export default function About() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-3">About Me</h3>
             <p className="text-base sm:text-lg leading-relaxed">
-              I’m Thando Nkala, a dedicated Softaware developer focused on building clean, responsive web experiences. I bring solid foundations in HTML, CSS, SCSS and JavaScript, and I’m constantly learning new tools and frameworks to push my craft further.
+              I’m Thando Nkala, a dedicated Software developer focused on building clean, responsive web experiences. I bring solid foundations in HTML, CSS, SCSS and JavaScript, and I’m constantly learning new tools and frameworks to push my craft further.
             </p>
             <p className="text-base sm:text-lg leading-relaxed mt-3">
               On my GitHub I’ve built a variety of small-to-medium web projects (for example a timer-demo and stylish portfolio template) that help me sharpen my UI design, layout and styling skills. 
